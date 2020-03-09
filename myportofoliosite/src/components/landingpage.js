@@ -8,17 +8,17 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_userAvatar.svg/1024px-OOjs_UI_icon_userAvatar.svg.png"
+              src="https://media-exp1.licdn.com/dms/image/C4D03AQG1zHE3cQrGjw/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=LBSCVigJm5W3dOyLG7hWtLa9oqwlBsGInz8srTI_6_A"
               alt="avatar"
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Software Developer</h1>
 
               <hr />
               <p>
-                HTML/CSS | Bootstrap | JavaScript | React | React Native |
-                NodeJS | Express | MongoDB
+                HTML/CSS | Bootstrap | JavaScript | React | Python | Swift |
+                MySQL | C/C++ | C#
               </p>
               <div className="social-links">
                 {/* LinkedIn */}
