@@ -8,8 +8,6 @@ import {
   CardTitle,
   CardActions,
   Button,
-  CardMenu,
-  IconButton,
   CardText
 } from "react-mdl";
 
@@ -23,70 +21,260 @@ class Project extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          {/*Project1*/}
+          {/*Project 1*/}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover"
+                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover"
               }}
             >
-              React Project #1
+              Motion Capture System
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Developed a low-cost motion capture system using smartphones to
+              resolve healthcare issues using Python and OpenCV.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a
+                href="https://github.com/longdino/multiobject-tracker"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
-          {/*Project2*/}
+          {/*Project 2*/}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover"
+                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover"
               }}
             >
-              React Project #1
+              IDIScan
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Developed a Lightweight Inventory Management System Prototype
+              using Python, Swift, and MySQL
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a
+                href="https://github.com/longdino/IDIScan"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+          </Card>
+          {/*Project 3*/}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover"
+              }}
+            >
+              Dungeon Duel
+            </CardTitle>
+            <CardText>
+              Developed a roguelike game with a website based on Java Script as
+              a semester-long project in Texas A&M.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/longdino/Game_Project"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+          {/*Others Project 1*/}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover"
+              }}
+            >
+              The Fox and The Forest
+            </CardTitle>
+            <CardText>
+              Created and developed a 2D side scroller game with a website
+              called, “The Fox and The Forest,” using Godot Engine.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/longdino/CSCE443"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
           </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is Angular</h1>
+        <div className="projects-grid">
+          {/*Python Project 1*/}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover"
+              }}
+            >
+              Motion Capture System
+            </CardTitle>
+            <CardText>
+              Developed a low-cost motion capture system using smartphones to
+              resolve healthcare issues using Python and OpenCV.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/longdino/multiobject-tracker"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+          {/*Python Project 2*/}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover"
+              }}
+            >
+              IDIScan
+            </CardTitle>
+            <CardText>
+              Developed a Lightweight Inventory Management System Prototype
+              using Python, Swift, and MySQL
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/longdino/IDIScan"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is VueJS</h1>
+          {/*JavaScript Project 1*/}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover"
+              }}
+            >
+              Dungeon Duel
+            </CardTitle>
+            <CardText>
+              Developed a roguelike game with a website based on Java Script as
+              a semester-long project in Texas A&M.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/longdino/Game_Project"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
         <div>
-          <h1>This is MongoDB</h1>
+          {/*Swift Project 1*/}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover"
+              }}
+            >
+              IDIScan
+            </CardTitle>
+            <CardText>
+              Developed a Lightweight Inventory Management System Prototype
+              using Python, Swift, and MySQL
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/longdino/IDIScan"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+        </div>
+      );
+    } else if (this.state.activeTab === 4) {
+      return (
+        <div>
+          {/*Others Project 1*/}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover"
+              }}
+            >
+              The Fox and The Forest
+            </CardTitle>
+            <CardText>
+              Created and developed a 2D side scroller game with a website
+              called, “The Fox and The Forest,” using Godot Engine.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/longdino/CSCE443"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       );
     }
@@ -100,10 +288,11 @@ class Project extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>All</Tab>
+          <Tab>Python</Tab>
+          <Tab>JavaScript</Tab>
+          <Tab>Swift</Tab>
+          <Tab>Others</Tab>
         </Tabs>
         <section className="projects-grid">
           <Grid>
