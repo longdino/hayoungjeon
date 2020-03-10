@@ -4,6 +4,7 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 //import { MDLComponent } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
+import PDF from "./static/Resume3.pdf";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Header className="header-color" title="Hayoung Jeon" scroll>
           <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/aboutme">About Me</Link>
+            <a href={PDF} rel="noopener noreferrer" target="_blank">
+              Resume
+            </a>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
           </Navigation>
@@ -21,8 +23,9 @@ function App() {
         <Drawer title="Menu">
           <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/aboutme">About Me</Link>
+            <a href={PDF} rel="noopener noreferrer" target="_blank">
+              Resume
+            </a>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
           </Navigation>
