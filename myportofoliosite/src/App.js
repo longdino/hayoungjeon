@@ -13,21 +13,21 @@ function App() {
         <Header className="header-color" title="Hayoung Jeon" scroll>
           <Navigation>
             <Link to="/">Home</Link>
+            <Link to="/contact">About Me</Link>
+            <Link to="/projects">Projects</Link>
             <a href={PDF} rel="noopener noreferrer" target="_blank">
               Resume
             </a>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
           </Navigation>
         </Header>
         <Drawer title="Menu">
           <Navigation>
             <Link to="/">Home</Link>
+            <Link to="/contact">About Me</Link>
+            <Link to="/projects">Projects</Link>
             <a href={PDF} rel="noopener noreferrer" target="_blank">
               Resume
             </a>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
           </Navigation>
         </Drawer>
         <Content>
