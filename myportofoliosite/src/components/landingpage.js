@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Grid, Cell } from "react-mdl";
-import { Container, Row, Col } from "reactstrap";
+import styled, { keyframes } from "styled-components";
+import { bounce } from "react-animations";
 import Media from "react-media";
 
 /* Reference by https://www.30secondsofcode.org/react/s/mailto */
@@ -16,13 +17,20 @@ function Mailto({ email, subject, body, ...props }) {
   );
 }
 
+/* Reference by  https://medium.com/@dmitrynozhenko/5-ways-to-animate-a-reactjs-app-in-2019-56eb9af6e3bf*/
+const Bounce = styled.div`
+  animation: 2s ${keyframes`${bounce}`};
+`;
+
 class Landing extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={6} className="landingCell1">
-            <h1>Welcome to My Website</h1>
+            <Bounce>
+              <h1>Welcome to My Website</h1>
+            </Bounce>
           </Cell>
           <Cell col={6} className="landingCell2">
             <div className="banner-text">
