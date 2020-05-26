@@ -9,7 +9,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Hayoung Jeon</h2>
             <img
-              src="https://media-exp1.licdn.com/dms/image/C4D03AQG1zHE3cQrGjw/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=LBSCVigJm5W3dOyLG7hWtLa9oqwlBsGInz8srTI_6_A"
+              src={require("../static/profile.jpg")}
               alt="avatar"
               style={{ height: "250px", border: "2px solid black" }}
             />
