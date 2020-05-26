@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from "react";
 import { Grid, Cell } from "react-mdl";
+import { Container, Row, Col } from "reactstrap";
 import Media from "react-media";
 
+/* Reference by https://www.30secondsofcode.org/react/s/mailto */
 function Mailto({ email, subject, body, ...props }) {
   return (
     <a
@@ -19,12 +21,10 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
-          <Cell col={12}>
-            <img
-              src="https://avatars1.githubusercontent.com/u/29418311?s=460&v=4"
-              alt="avatar"
-              className="avatar-img"
-            />
+          <Cell col={6} className="landingCell1">
+            <h1>Welcome to My Website</h1>
+          </Cell>
+          <Cell col={6} className="landingCell2">
             <div className="banner-text">
               {/* <Media
                 queries={{
@@ -41,8 +41,7 @@ class Landing extends Component {
                   </Fragment>
                 )}
               </Media> */}
-              <h1>Software Developer</h1>
-
+              <h1>Software Developer | Musician</h1>
               <hr />
               <p>
                 HTML/CSS | Bootstrap | JavaScript | React | Python | Swift |

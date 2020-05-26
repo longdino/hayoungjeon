@@ -32,6 +32,16 @@
   overflow: scroll;
 }
 
+.landingCell1 h1 {
+  color: white;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.landingCell2 {
+  padding-top: 2em;
+}
+
 .projects-grid {
   display: flex;
 }
