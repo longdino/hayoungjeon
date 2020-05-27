@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 
 class Contact extends Component {
   render() {
@@ -20,46 +20,6 @@ class Contact extends Component {
               are computer vision, software development, computer graphics,
               database, machine learning, and game development.
             </p>
-          </Cell>
-          <Cell col={6}>
-            <h2>Contact Me</h2>
-            <hr />
-            <div className="contact-list">
-              <List>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    (214) 385-9511
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-envelope" aria-hidden="true" />
-                    hayung@gmail.com
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-linkedin-square" aria-hidden="true" />
-                    https://www.linkedin.com/in/hayoungjeon/
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-github-square" aria-hidden="true" />
-                    https://github.com/longdino
-                  </ListItemContent>
-                </ListItem>
-              </List>
-            </div>
           </Cell>
         </Grid>
       </div>
