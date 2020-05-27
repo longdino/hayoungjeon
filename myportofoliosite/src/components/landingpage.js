@@ -49,12 +49,14 @@ class Landing extends Component {
                   </Fragment>
                 )}
               </Media> */}
-              <h1>Software Developer | Musician</h1>
+              <h1>Software Developer</h1>
+              {/* <hr /> */}
+              <p>C/C++ | Python | C# | JavaScript | React | Python | Swift</p>
               <hr />
-              <p>
-                HTML/CSS | Bootstrap | JavaScript | React | Python | Swift |
-                MySQL | C/C++ | C#
-              </p>
+              <h1>Musician</h1>
+              {/* <hr /> */}
+              <p>Drums | Acoustic Guitar | Bass Guitar | Compose/Arrange</p>
+              <hr />
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
