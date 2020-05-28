@@ -11,7 +11,10 @@ import {
   CardText,
 } from "react-mdl";
 
-import Composition1 from "../static/Composition1.pdf";
+import Composition1 from "../static/music/Composition1.pdf";
+import Composition2 from "../static/music/Composition2.pdf";
+import Composition3 from "../static/music/Composition3.pdf";
+import Composition4 from "../static/music/Composition4.pdf";
 
 class Music extends Component {
   constructor(props) {
@@ -23,23 +26,23 @@ class Music extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="music-grid">
-          {/* Music 1 */}
+          {/* All 1*/}
           <Card shadow={5} style={{ minWidth: "450", margin: "10px" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "#000",
                 height: "176px",
+                fontWeight: "700",
                 background:
-                  "url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center / cover",
+                  "url(https://cdn.pixabay.com/photo/2018/03/12/22/15/music-notes-3221097_960_720.jpg)",
               }}
             >
               우린 기다리네
             </CardTitle>
             <CardText>
-              Revelation 4:1 "After his I looked, and behold, a door standing
-              open in haeven! And the first voice, which I had heard speaking to
-              me like a trumpet, said, "Come up here, and I will show you what
-              must take place after this.""
+              "이 일 후에 내가 보니 하늘에 열린 문이 있는데 내가 들은 바 처음에
+              내게 말하던 나팔 소리 같은 그 음성이 이르되 이리로 올라오라 이
+              후에 마땅히 일어날 일들을 내가 네게 보이리라 하시더라" (계 4:1)
             </CardText>
             <CardActions border>
               <a href={Composition1} rel="noopener noreferrer" target="_blank">
