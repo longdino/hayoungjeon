@@ -48,6 +48,10 @@
   display: flex;
 }
 
+.music-grid {
+  display: flex;
+}
+
 .contact-body {
   margin: auto;
   position: fixed;

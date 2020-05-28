@@ -15,6 +15,7 @@ function App() {
             <Link to="/">Home</Link>
             <Link to="/contact">About Me</Link>
             <Link to="/projects">Projects</Link>
+            <Link to="/music">Music</Link>
             <a href={PDF} rel="noopener noreferrer" target="_blank">
               Resume
             </a>
@@ -25,6 +26,7 @@ function App() {
             <Link to="/">Home</Link>
             <Link to="/contact">About Me</Link>
             <Link to="/projects">Projects</Link>
+            <Link to="/music">Music</Link>
             <a href={PDF} rel="noopener noreferrer" target="_blank">
               Resume
             </a>
