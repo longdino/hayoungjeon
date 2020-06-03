@@ -165,4 +165,12 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+  .landingCell1 h1 {
+    font-size: 30px;
+    padding-left: 5em;
+  }
+  .banner-text {
+    margin-left: 11em;
+    margin-right: 11em;
+  }
 }
