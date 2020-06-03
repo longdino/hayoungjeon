@@ -9,9 +9,9 @@ import PDF from "./static/Resume.pdf";
 function App() {
   return (
     <div className="demo-big-content">
-      <Layout>
+      <Layout fixedHeader>
         <Header className="header-color" title="Hayoung Jeon" scroll>
-          <Navigation className="navBar">
+          <Navigation>
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/music">Music</Link>
@@ -20,7 +20,7 @@ function App() {
             </a>
           </Navigation>
         </Header>
-        <Drawer title="Menu">
+        <Drawer title="Menu" className="drawer-color">
           <Navigation>
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
