@@ -43,6 +43,7 @@ class Music extends Component {
             >
               우린 기다리네
             </CardTitle>
+            <CardText>Hayoung Jeon</CardText>
             <CardActions border>
               <a href={Composition1} rel="noopener noreferrer" target="_blank">
                 <Button colored>See More</Button>
@@ -62,6 +63,7 @@ class Music extends Component {
             >
               주 사랑 내 안에
             </CardTitle>
+            <CardText>Hayoung Jeon</CardText>
             <CardActions border>
               <a href={Composition2} rel="noopener noreferrer" target="_blank">
                 <Button colored>See More</Button>
@@ -81,6 +83,7 @@ class Music extends Component {
             >
               주 오셔서
             </CardTitle>
+            <CardText>Hayoung Jeon</CardText>
             <CardActions border>
               <a href={Composition3} rel="noopener noreferrer" target="_blank">
                 <Button colored>See More</Button>
@@ -100,6 +103,7 @@ class Music extends Component {
             >
               주는 나의 힘
             </CardTitle>
+            <CardText>Hayoung Jeon</CardText>
             <CardActions border>
               <a href={Composition4} rel="noopener noreferrer" target="_blank">
                 <Button colored>See More</Button>
@@ -124,6 +128,7 @@ class Music extends Component {
             >
               우린 기다리네
             </CardTitle>
+            <CardText>Hayoung Jeon</CardText>
             <CardActions border>
               <a href={Composition1} rel="noopener noreferrer" target="_blank">
                 <Button colored>See More</Button>
@@ -143,6 +148,7 @@ class Music extends Component {
             >
               주 사랑 내 안에
             </CardTitle>
+            <CardText>Hayoung Jeon</CardText>
             <CardActions border>
               <a href={Composition2} rel="noopener noreferrer" target="_blank">
                 <Button colored>See More</Button>
@@ -162,6 +168,7 @@ class Music extends Component {
             >
               주 오셔서
             </CardTitle>
+            <CardText>Hayoung Jeon</CardText>
             <CardActions border>
               <a href={Composition3} rel="noopener noreferrer" target="_blank">
                 <Button colored>See More</Button>
@@ -181,6 +188,7 @@ class Music extends Component {
             >
               주는 나의 힘
             </CardTitle>
+            <CardText>Hayoung Jeon</CardText>
             <CardActions border>
               <a href={Composition4} rel="noopener noreferrer" target="_blank">
                 <Button colored>See More</Button>
