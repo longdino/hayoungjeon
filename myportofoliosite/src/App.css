@@ -121,6 +121,7 @@
 }
 
 @media (max-width: 1500px) {
+  /* home page */
   .banner-text h1 {
     font-size: 40px;
     font-weight: bold;
@@ -131,7 +132,24 @@
   .social-links {
     justify-content: center;
   }
+  /* projects page */
+  /* Music Page */
 }
 
 @media (max-width: 1024px) {
+  /* home page */
+  .landingCell1 h1 {
+    font-size: 40px;
+  }
+  .banner-text {
+    height: 60%;
+  }
+  .banner-text h1 {
+    font-size: 30px;
+  }
+  .social-links i {
+    font-size: 40px;
+  }
+  /* projects page */
+  /* Music Page */
 }
