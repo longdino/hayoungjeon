@@ -34,28 +34,13 @@ class Landing extends Component {
           </Cell>
           <Cell col={6} className="landingCell2">
             <div className="banner-text">
-              {/* <Media
-                queries={{
-                  small: "(max-width: 599px)",
-                  medium: "(min-width: 600px) and (max-width: 1199px)",
-                  large: "(min-width: 1200px)",
-                }}
-              >
-                {(matches) => (
-                  <Fragment>
-                    {matches.small && <p>I am small!</p>}
-                    {matches.medium && <p>I am medium!</p>}
-                    {matches.large && <p>I am large!</p>}
-                  </Fragment>
-                )}
-              </Media> */}
               <h1>Software Developer</h1>
               {/* <hr /> */}
               <p>C/C++ | Python | C# | JavaScript | React | Python | Swift</p>
               <hr />
               <h1>Musician</h1>
               {/* <hr /> */}
-              <p>Drums | Acoustic Guitar | Bass Guitar | Compose/Arrange</p>
+              <p>Drums | Compose | Arrange</p>
               <hr />
               <div className="social-links">
                 {/* LinkedIn */}

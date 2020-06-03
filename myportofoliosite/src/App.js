@@ -11,7 +11,7 @@ function App() {
     <div className="demo-big-content">
       <Layout>
         <Header className="header-color" title="Hayoung Jeon" scroll>
-          <Navigation>
+          <Navigation className="navBar">
             <Link to="/">Home</Link>
             <Link to="/contact">About Me</Link>
             <Link to="/projects">Projects</Link>
