@@ -13,7 +13,6 @@ function App() {
         <Header className="header-color" title="Hayoung Jeon" scroll>
           <Navigation className="navBar">
             <Link to="/">Home</Link>
-            <Link to="/contact">About Me</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/music">Music</Link>
             <a href={PDF} rel="noopener noreferrer" target="_blank">
@@ -24,7 +23,6 @@ function App() {
         <Drawer title="Menu">
           <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/contact">About Me</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/music">Music</Link>
             <a href={PDF} rel="noopener noreferrer" target="_blank">
