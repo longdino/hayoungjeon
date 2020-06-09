@@ -181,6 +181,7 @@
   /* Music Page */
 }
 
+/* Mobile */
 @media (max-device-width: 480px) and (orientation: portrait) {
   /* home page */
   .landingCell1 {
@@ -189,6 +190,7 @@
   .banner-text {
     width: 100%;
     height: 100%;
+    margin: auto;
   }
   /* projects page */
   /* Music Page */
