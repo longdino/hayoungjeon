@@ -194,6 +194,14 @@
   }
   /* projects page */
   /* Music Page */
+  /* Login Page*/
+  .Login {
+    padding: 60px 0;
+  }
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
 }
 
 @media (max-device-width: 640px) and (orientation: landscape) {

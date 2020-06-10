@@ -19,7 +19,8 @@ function App() {
             <a href={PDF} rel="noopener noreferrer" target="_blank">
               Resume
             </a>
-            <GoogleBtn>Click</GoogleBtn>
+            <Link to="/login">Login</Link>
+            {/* <GoogleBtn>Click</GoogleBtn> */}
           </Navigation>
         </Header>
         <Drawer title="Menu" className="drawer-color">
