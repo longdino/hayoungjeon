@@ -5,6 +5,7 @@ import LandingPage from "./landingpage";
 import Projects from "./projects";
 import Resume from "./resume";
 import Music from "./music";
+import Csce from "./csce641";
 
 const Main = () => (
   <Switch>
@@ -12,6 +13,7 @@ const Main = () => (
     <Route path="/projects" component={Projects} />
     <Route path="/resume" component={Resume} />
     <Route path="/music" component={Music} />
+    <Route path="/csce641" component={Csce} />
   </Switch>
 );
 

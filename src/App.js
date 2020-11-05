@@ -19,9 +19,7 @@ function App() {
             <a href={PDF} rel="noopener noreferrer" target="_blank">
               Resume
             </a>
-            <a href={PROJ} rel="noopener noreferrer" target="-blank">
-              CSCE641
-            </a>
+            <Link to="/csce641">CSCE641</Link>
           </Navigation>
         </Header>
         <Drawer title="Menu" className="drawer-color">
