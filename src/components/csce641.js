@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from "react";
-import { Grid, Cell, ListItemContent, ListItem, List, DataTable, TableHeader } from "react-mdl";
+import React, { Component } from "react";
+import { Grid, Cell, ListItemContent, ListItem, List } from "react-mdl";
 import PROS from "../static/Proposal_Jeon.pdf";
 import PROJ from "../static/Proposal.pdf";
 import UPDATE from "../static/Update.pdf";

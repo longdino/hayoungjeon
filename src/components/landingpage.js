@@ -1,8 +1,7 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import styled, { keyframes } from "styled-components";
 import { bounce } from "react-animations";
-import Media from "react-media";
 
 /* Reference by https://www.30secondsofcode.org/react/s/mailto */
 function Mailto({ email, subject, body, ...props }) {
@@ -42,6 +41,13 @@ class Landing extends Component {
               {/* <hr /> */}
               <p>Drums | Compose | Arrange</p>
               <hr />
+              <Mailto
+                email="hayung@gmail.com"
+                subject="Recruitment"
+                body="Hello Hayoung, "
+              >
+                <h1>Contact Me</h1>
+              </Mailto>
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
@@ -49,7 +55,8 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                  LinkedIn
+                  {/*<i className="fa fa-linkedin-square" aria-hidden="true" />*/}
                 </a>
                 {/* GitHub */}
                 <a

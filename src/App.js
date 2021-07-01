@@ -18,6 +18,7 @@ function App() {
             <a href={PDF} rel="noopener noreferrer" target="_blank">
               Resume
             </a>
+            <Link to="/login">Log In</Link>
             <Link to="/csce641">CSCE641</Link>
           </Navigation>
         </Header>
@@ -29,6 +30,7 @@ function App() {
             <a href={PDF} rel="noopener noreferrer" target="_blank">
               Resume
             </a>
+            <Link to="/login">Log In</Link>
             <Link to="/csce641">CSCE641</Link>
           </Navigation>
         </Drawer>
